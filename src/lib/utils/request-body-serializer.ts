@@ -1,0 +1,11 @@
+import {HttpRequest} from "@angular/common/http";
+
+export function requestBodySerializer(request: HttpRequest<any>, bodyParams: string[]): string {
+  const postBody = [];
+  bodyParams.forEach(param => {
+    if (request.body.hasOwnProperty(param)) {
+      postBody.push(request.body[param]);
+    }
+  });
+  return [urlIdentifier, postBody.join('_')].join('_');
+}

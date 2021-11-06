@@ -1,6 +1,26 @@
 {
   "name": "@anexia/ngx-interceptor-tools",
+  "description": "This library provides a toolset for common http interceptor tasks, like request matching.",
   "version": "12.0.0",
+  "author": {
+    "email": "sgraziani@anexia-it.com",
+    "name": "Sven Graziani"
+  },
+  "keywords": [
+    "interceptor",
+    "angular",
+    "loading",
+    "state",
+    "tool",
+    "dry",
+    "anexia"
+  ],
+  "repository": {
+    "url": "https://github.com/svengraziani/ngx-interceptor-tools",
+    "type": "git"
+  },
+  "license": "MIT",
+  "private": false,
   "peerDependencies": {
     "@angular/common": "^12.2.0",
     "@angular/core": "^12.2.0"
