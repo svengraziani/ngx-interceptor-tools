@@ -1,7 +1,7 @@
 {
   "name": "@anexia/ngx-interceptor-tools",
   "description": "This library provides a toolset for common http interceptor tasks, like request matching.",
-  "version": "12.0.0",
+  "version": "12.0.1",
   "author": {
     "email": "sgraziani@anexia-it.com",
     "name": "Sven Graziani"
