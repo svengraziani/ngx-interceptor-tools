@@ -18,6 +18,6 @@ export class RegExMatcher implements RequestMatchStrategy {
 
   public match(request: HttpRequest<any>): boolean {
     const selector = this.selector ? this.selector(request) : '';
-    return Boolean(this.patterns.filter(pattern => Boolean(pattern.exec(selector))).length);
+    return Boolean(this.patterns.filter(pattern => Boolean(pattern.test(selector))).length);
   }
 }
